@@ -33,6 +33,10 @@ public class Solution {
         // student_id = [1,2], k = 2
 
         //make a map for each student to store points
+
+        List<String> lpositive_feedback = Arrays.asList(positive_feedback);
+        List<String> lnegative_feedback = Arrays.asList(negative_feedback);
+
         List<int[]> points_array = new ArrayList<>();
         int ll = student_id.length;
         for(int s = 0; s < ll; s++) {
@@ -40,15 +44,19 @@ public class Solution {
             String sentence = report[s];
             String[] words = sentence.split(" ");
             int val = 0;
+
+
             for(String wd : words) {
-                if(Arrays.asList(positive_feedback).contains(wd)) {
+                if(lpositive_feedback.contains(wd)) {
                     val += 3;
-                } else if (Arrays.asList(negative_feedback).contains(wd)) {
+                } else if (lnegative_feedback.contains(wd)) {
                     val -= 1;
                 }
             }
 
-            points_array.add(new int[]{id,val});
+            int[] i = new int[]{id,val};
+
+            points_array.add(i);
         }
 
         points_array.sort( new compareFeedback());

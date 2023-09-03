@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f94eea4c-5fa3-4c8e-bd08-20d4389cca41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hackerrank/q1/stdInOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/q1_twosum/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/q2_rewardtopkstudents/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercism/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/q2_rewardtopkstudents/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/q2_rewardtopkstudents/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2Sut1oSqIQx01hqPexfk2iDGoJC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,6 +35,7 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -66,7 +66,8 @@
       <workItem from="1690169108269" duration="1109000" />
       <workItem from="1690170231113" duration="598000" />
       <workItem from="1690173467071" duration="18405000" />
-      <workItem from="1691897810198" duration="10151000" />
+      <workItem from="1691897810198" duration="12236000" />
+      <workItem from="1693711410623" duration="622000" />
     </task>
     <servers />
   </component>
